@@ -1,0 +1,6 @@
+--- 
+- name: change owner as tomcat
+  commond: sudo chown -R tomcat:tomcat /opt/tomcat/
+
+- name: make execute access on bin folder 
+  commond: sudo chmod -R u+x /opt/tomcat/bin

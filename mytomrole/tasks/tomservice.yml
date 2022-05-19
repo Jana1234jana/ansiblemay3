@@ -1,0 +1,5 @@
+--- 
+- name: tomcat service configaration
+  template: 
+      src: templates/tomservice.yml
+      dest: /etc/systemd/system/tomcat.service
